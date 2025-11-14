@@ -3,9 +3,9 @@ export DEBUG_MODE="true" # Enable Debug if you want to see the rollout of model 
 export WANDB_MODE="offline"
 
 # You should refine the model_path and exp_name here.
-MODEL_PATH="/path/to/Qwen2.5-VL-7B-Instruct"
+MODEL_PATH="Qwen/Qwen2.5-VL-7B-Instruct"
 EXP_NAME="sft"
-OUT_DIR="/path/to/ckpts/${EXP_NAME}"
+OUT_DIR="./ckpts/${EXP_NAME}"
 
 DATA_ROOT=$(python -c "from configs.data_root import DATA_ROOT; print(DATA_ROOT)")
 # mkdir -p ./train_logs
