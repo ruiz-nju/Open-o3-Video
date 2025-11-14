@@ -1,4 +1,4 @@
-cd src/r1-v
+# cd src/r1-v
 export DEBUG_MODE="true" # Enable Debug if you want to see the rollout of model during RL
 export WANDB_MODE="offline"
 
